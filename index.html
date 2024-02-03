@@ -22,12 +22,38 @@
     ================================================== -->
     
     <link rel="icon" type="image/png" sizes="32x32" href="images\favicon-H.png">
-    
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"/>
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"/>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
 
 </head>
 
 
 <body id="top">
+ 
+    <style>
+/* Add this CSS code in your stylesheet or within a <style> tag in the head */
+
+    .image-slider {
+    overflow: hidden;
+}
+
+.slides {
+    display: flex;
+    transition: transform 0.5s ease-in-out; /* Add smooth transition effect */
+}
+
+.slide {
+    min-width: 100%;
+}
+
+.slide img {
+    width: 100%;
+    height: auto;
+}
+
+    </style>
 
     
     <!-- preloader
@@ -67,6 +93,7 @@
                     <ul class="s-header__menu-links">
                         <li><a href="about.html">About</a></li>
                         <li><a href="services.html">Awards</a></li>
+                        <li><a href="Experience.html">Experience</a></li>
                         <li><a href="blog.html">Journal</a></li>
                         <li><a href="contact.html">Contact</a></li>
                         <li><a href="Gallery.html">Gallery</a></li>
@@ -94,9 +121,9 @@
                     <div class="column lg-12 s-intro__content-inner grid-block">
                         
                         <div class="s-intro__content-text">
-                            <div class="s-intro__content-pretitle text-pretitle">Hello, I'm Kopperi Harishankar</div>
+                            <div class="s-intro__content-pretitle text-pretitle"></div>
                             <h1 class="s-intro__content-title">
-                                "Elevating Sustainable Solutions: Navigating the Frontiers of Research in Sustainability as a Dedicated PhD Scholar"
+                                "We are living on this planet as if we had another one to go to.”
                             </h1>
                         </div> <!-- s-intro__content-text -->
 
@@ -142,10 +169,21 @@
 
                         <div class="s-about__content-main grid-section-split__primary">
                             <p class="attention-getter">
-                                Welcome to the official website of Harishankar Kopperi, an ambitious Ph.D. student currently pursuing studies at the Academy of Scientific and Innovative Research (AcSIR), within the esteemed CSIR-Indian Institute of Chemical Technology (CSIR-IICT). Harishankar's research endeavors focus on several key areas within the realm of sustainable processes, with a primary emphasis on leveraging Life Cycle Assessment (LCA) approaches for the design of environmentally responsible products and processes. His commitment extends to crafting sustainable roadmaps geared towards achieving Net-zero targets, and he is actively involved in formulating decarbonization strategies tailored for Hard-to-Abate sectors. Harishankar's expertise also lies in the transformative conversion of biomass, municipal solid waste (MSW), and plastics into biofuels and chemicals, contributing significantly to the circular economy. This platform provides an insightful glimpse into Harishankar's academic journey and offers a detailed exploration of his research interests and accomplishments in these vital fields of study.
+                                Welcome to the official website of Harishankar Kopperi, an ambitious researcher currently pursuing doctoral studies with the esteemed scientist Dr S Venkata Mohan, CSIR-Indian Institute of Chemical Technology (CSIR-IICT). Harishankar's research focuses on several key areas within the realm of sustainable processes, with a primary emphasis on leveraging Life Cycle Assessment (LCA) approaches for the design of environmentally responsible products and processes. His commitment extends to the design of sustainable processes geared towards achieving Net-zero targets, and he is actively involved in formulating decarbonization strategies tailored for Hard-to-Abate sectors and API molecules/ chemicals for pharmaceuticals. Harishankar's expertise also lies in the transformative conversion of biomass, municipal solid waste (MSW), and plastics into biofuels and chemicals, contributing significantly to the circular economy. This platform provides an insightful glimpse to his academic journey and offers a detailed exploration in the field of study. 
                             </p>
 
-                           
+                            <div class="section-header grid-section-split__header">
+                                <!-- <div class="text-pretitle">Research</div>                           
+                                <h2 class="text-display-title">
+                                
+                                </h2>                           
+                            </div> 
+                            <p class="attention-getter">
+                                As a PhD scholar specializing in Sustainability Analysis, Hydrothermal Liquefaction: uncovering innovative pathways for transforming biomass into biofuels and chemicals.  Leveraging Life Cycle Assessment (LCA) approaches for the design of environmentally responsible products and processes
+
+Additionally, I explore cutting-edge methodologies for plastic upcycling, contributing to a circular economy. Committed to advancing sustainable practices, my work aims to address critical environmental challenges through interdisciplinary research in renewable energy and materials science.
+                            </p>
+                            -->
                         </div> <!-- end s-about__content-main -->
 
                         <div class="s-about__content-btn grid-section-split__bottom">
@@ -194,7 +232,7 @@
                             </h2>     
                             
                             <p class="lead">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum suscipit debitis quam dignissimos veritatis atque pariatur magnam obcaecati fugit reprehenderit vel numquam facere esse est deserunt, perferendis commodi voluptatem similique.
+                            
                             </p>
                         </div> <!-- end section-header -->
 
@@ -212,12 +250,10 @@
                                     </div>
                                 </div> <!-- list-item -->
                                 <div class="grid-list-items__item list-items__item">
-                                    <div class="grid-list-items__title list-items__item-header">
-                                        <h3 class="list-items__item-title">Design of sustainable roadmap for Net-zero targets</h3>
-                                    </div>
+                                  
                                     <div class="grid-list-items__text list-items__item-text">
                                         <p>
-                                            My research revolves around crafting sustainable roadmaps tailored for achieving Net-zero targets, employing strategic design principles. I am committed to developing comprehensive frameworks that guide organizations toward environmentally responsible practices and help navigate the path to a Net-zero future.
+                                           
 
                                         </p>
                                     </div>
@@ -245,12 +281,46 @@ Passionate about advancing circular economy practices, my research expertise lie
                                     </div>
                                 </div> <!-- list-expertise__item -->
 
+                               <!-- Add this HTML code where you want the images to appear -->
+                               <div class="image-slider">
+                                <div class="slides">
+                                <div class="slide"><img src="page/Picture2.jpg" alt="Image 1"></div>
+                                <div class="slide"><img src="page/Picture1.jpg" alt="Image 2"></div>
+                                <div class="slide"><img src="page/Picture3.jpg" alt="Image 3"></div>
+                                <div class="slide"><img src="page/Picture4.jpg" alt="Image 4"></div>
+                                <div class="slide"><img src="page/picture-5.jpg" alt="Image 5"></div>
+                                <div class="slide"><img src="page/picture 6.jpeg" alt="Image 5"></div>
+                                <div class="slide"><img src="page/picture 7.jpeg" alt="Image 5"></div>
+                            </div>
+                            </div>
+
+                            <!-- Update the JavaScript code within a <script> tag or in a separate JS file -->
+
+
+   <script>
+    document.addEventListener("DOMContentLoaded", function() {
+        var slider = document.querySelector('.image-slider');
+        var slidesContainer = document.querySelector('.slides');
+        var slides = document.querySelectorAll('.slide');
+
+        var currentSlide = 0;
+
+        function nextSlide() {
+            currentSlide = (currentSlide + 1) % slides.length;
+            slidesContainer.style.transform = 'translateX(' + (-currentSlide * 100) + '%)';
+        }
+
+        setInterval(nextSlide, 3000); // Adjust the interval (in milliseconds) for auto-sliding
+    });
+</script>
+
+
+                            </script>
+
                             </div> <!-- grid-list-items -->
                         </div> <!-- end s-expertise__content-main -->
 
-                        <div class="s-expertise__content-btn grid-section-split__bottom">
-                            <a href="services.html" class="btn btn--stroke u-fullwidth">View All Services</a>
-                        </div> <!-- end s-about__content-btn -->
+                        <!-- end s-about__content-btn -->
 
                     </div> <!-- end grid-block-->
                 </div> <!-- end s-expertise__content -->
@@ -353,18 +423,19 @@ Passionate about advancing circular economy practices, my research expertise lie
         ================================================== -->
         <footer class="s-footer">
             <div class="row s-footer__content">
-                <div class="column xl-6 lg-6 md-12 s-footer__block s-footer__about">                    
+                <!-- <div class="column xl-6 lg-6 md-12 s-footer__block s-footer__about">                    
                     <h3>About Harishankar</h3>
                     <p>
                     
-As a PhD scholar specializing in Sustainability Analysis, my research delves into Hydrothermal Liquefaction, uncovering innovative pathways for transforming biomass into biofuels and chemicals. Additionally, I explore cutting-edge methodologies for plastic upcycling, contributing to a circular economy. Committed to advancing sustainable practices, my work aims to address critical environmental challenges through interdisciplinary research in renewable energy and materials science.
+                        Welcome to the official website of Harishankar Kopperi, an ambitious researcher currently pursuing doctoral studies with the esteemed scientist Dr S Venkata Mohan, CSIR-Indian Institute of Chemical Technology (CSIR-IICT). Harishankar's research focuses on several key areas within the realm of sustainable processes, with a primary emphasis on leveraging Life Cycle Assessment (LCA) approaches for the design of environmentally responsible products and processes. His commitment extends to the design of sustainable processes geared towards achieving Net-zero targets, and he is actively involved in formulating decarbonization strategies tailored for Hard-to-Abate sectors and APIs molecules/ chemicals for pharmaceuticals. Harishankar's expertise also lies in the transformative conversion of biomass, municipal solid waste (MSW), and plastics into biofuels and chemicals, contributing significantly to the circular economy. This platform provides an insightful glimpse into Harishankar's academic journey and offers a detailed exploration of his research interests and accomplishments in these vital fields of study.
                     </p>               
-                </div>                
+                </div>                 -->
                 <div class="column xl-3 lg-6 md-12 s-footer__block s-footer__site-links">
                     <h3>Site Links</h3>
                     <ul class="link-list">
                         <li><a href="index.html">Home</a></li>
                         <li><a href="services.html">Award</a></li>
+                        <li><a href="Experience.html">Experience</a></li>
                         <li><a href="blog.html">Journal</a></li>
                         <li><a href="about.html">About</a></li>
                         <li><a href="contact.html">Contact</a></li>
